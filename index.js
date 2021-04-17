@@ -78,5 +78,3 @@ async function apiChatApi(method, params){
     const jsonResponse = await apiResponse.json();
     return jsonResponse;
 }
-
-console.log(1);
